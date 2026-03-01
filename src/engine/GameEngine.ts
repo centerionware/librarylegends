@@ -3,7 +3,7 @@ import { GameState, Tower, PermanentUpgrades, Planet, LibraryDrop, Point, Enemy 
 import { COLORS, TOWER_TYPES, ALL_SKILLS, TECH_TREE, COST_MULTIPLIER } from '@/src/constants';
 import { LogicHandler } from '@/src/engine/LogicHandler';
 import { RenderHandler } from '@/src/engine/RenderHandler';
-import { audio } from './AudioManager';
+import { audio } from '@/src/engine/AudioManager';
 
 const PERM_STORAGE_KEY = 'library_legend_v7_perm';
 const SESSION_STORAGE_KEY = 'library_legend_v7_session';
