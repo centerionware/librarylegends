@@ -6,7 +6,7 @@ import UIOverlay from '@/src/components/UIOverlay';
 import SkillTree from '@/src/components/SkillTree';
 import { TOWER_TYPES } from '@/src/constants';
 import { Target } from 'lucide-react';
-import { audio } from '@/src/engine/AudioManager';
+import { audio } from './engine/AudioManager';
 
 const App: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
